@@ -1,0 +1,124 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+	font-weight: 900;
+}
+
+p {  }
+
+.container {
+		width:1150px;
+		margin: 0 auto;
+}
+.header {
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2a2240', GradientType=1 );
+	padding-top: 66px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	align-items:center; 
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 37px;
+}
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-bottom: 37px;
+	margin-top: 47px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+    color: black;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	
+}
+
+.learn {
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+	padding-top: 107px;
+    padding-bottom: 120px;
+	text-align:center;
+}
+.opportunities {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+	
+}
+.time {
+    width: 350px;
+	padding-left: 100px;
+    text-align: center;
+    
+}
+
+
+.form_text{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.mail {
+	background: #ecf2f8;
+	padding-top: 50px;
+	padding-bottom: 110px;
+}
+.form {
+	display: block;
+	max-width:340px;
+	margin: 0 auto; 
+	
+}
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+	border-radius: 100px;
+	height: 54px;
+	padding-left: 38px;
+	margin:0 auto 15px ;
+
+}
+.btn-form {
+	width: 340px;
+	margin: 0 auto;
+}
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+	color: white;
+	text-align: center;
+}
